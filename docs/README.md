@@ -20,7 +20,33 @@ nodemon server
 ```
 
 ## Authentication and Authorization
-Users must log in with a valid username and password in order to use the API.
+Users must sign up and log in with a valid username and password in order to use the API.
+
+| Method | Endpoint | Purpose |
+| -------- | -------- | -------- |
+| POST | `/sign-up` | Create an account |
+| POST | `/login` | Get access to API with valid credentials |
+
+### Sign-up
+Make a `POST` request to `/sign-up` with a `username` and `password`.
+```json
+{
+    "username": "a_username",
+    "password": "a_password"
+}
+```
+![Successful sign up](sign-up.png)
+
+### Login
+Make a `POST` request to `/login` with a `username` and `password`.
+```json
+{
+    "username": "a_username",
+    "password": "a_password"
+}
+```
+![Successful log in](login.png)
+
 
 ## Characters
 | Method | Endpoint | Purpose |
