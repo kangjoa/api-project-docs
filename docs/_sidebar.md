@@ -1,5 +1,8 @@
 * [Bob's Burgers API](README.md#bobs-burgers-api)
   * [Getting Started](README.md#getting-started)
+  * [Authentication and Authorization](README.md#authentication-and-authorization)
+    * [Sign-up](README.md#sign-up)
+    * [Login](README.md#login)
   * [Characters](README.md#characters)
     * [Show all characters](README.md#show-all-characters)
     * [Show one character](README.md#show-one-character)
